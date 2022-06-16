@@ -1,0 +1,54 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&display=swap");
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  margin-top: 5px;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.skilbox__parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: blue;
+}
+
+.skilbox__child {
+  background: yellow;
+}
+
+.skilbox__child h1 {
+  padding: 5px 15px;
+}
+
+.skilbox__child ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.skilbox__child ul li {
+  list-style: none;
+  padding: 5px 15px;
+}
+
+.skilbox__child a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
